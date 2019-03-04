@@ -25,10 +25,10 @@ class CategoryTestClass(TestCase):
 
 class LocationTestCase(TestCase):
     def setUp(self):
-        self.nyali = Location(name = 'Nyali')
+        self.nyali = Location(name = 'Nairobi')
 
     def test_instance(self):
-        self.assertTrue(isinstance(self.nyali, Location))
+        self.assertTrue(isinstance(self.nairobi, Location))
 
     def tearDown(self):
         Location.objects.all().delete()
@@ -39,7 +39,7 @@ class LocationTestCase(TestCase):
         self.assertTrue(len(locations) > 0)
 
     def test_delete_location(self):
-        self.nyali.delete_location('Nyali')
+        self.nyali.delete_location('Nairobi')
         locations = Location.objects.all()
         self.assertTrue(len(locations) == 0)
 
@@ -50,7 +50,7 @@ class ImageTestCase(TestCase):
         self.new_category.save_category()
 
         # Creat a new location and saving it
-        self.new_location = Location(name = 'Nyali')
+        self.new_location = Location(name = 'Nairobi')
         self.new_location.save_location()
 
         self.new_image = Image(image_name = 'Test Image',image_description = 'Test Description',image_category = self.new_category,image_location = self.new_location)
