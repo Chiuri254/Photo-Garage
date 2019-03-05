@@ -1,5 +1,5 @@
-# Blog App
-#### This is a personal blogging website that allows  writing blogs and allow others to view, and comment on them as well as getting inspired with a qoute.
+# Photo Garage
+#### 
 #### By **JOSEPH CHIURI**
 ## Description
 A personal blogging website where one can create and share your opinions and other users can read and comment on them as well as getting inspired with a qoute.
