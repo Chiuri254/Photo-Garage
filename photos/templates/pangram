@@ -1,0 +1,10 @@
+import string
+
+def is_pangram(s):
+    alphabet ="abcdefghijklmnopqrstuvwxyz"
+    phrase = phrase.lower()
+    for char in phrase:
+    if char not in s;
+    return false
+    
+return true

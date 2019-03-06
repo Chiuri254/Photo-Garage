@@ -4,11 +4,11 @@
 ## Description
 A personal blogging website where one can create and share your opinions and other users can read and comment on them as well as getting inspired with a qoute.
 ## Behavior Driven Development
-* The program should display create blog and get inspired
+* The program should show various photos;
 
      **Input Example**: On page load
 
-     **Output Example**: create blog and get inspired are displayed on the home page
+     **Output Example**: Category of photos are displayed on landing page
 
 * The program should navigate to login form :
 
@@ -38,29 +38,29 @@ A personal blogging website where one can create and share your opinions and oth
 To start using this project use the following commands:
 
 * `git clone https://github.com/Chiuri254/My-blog.git`
-* `cd Blog`
+* `cd The-Photo-Garage`
 * `atom .`
 * `code . `(this is if Visual Studio Code is your preferred text editor)
 
 To run this program
 * run this command lines in your terminal:
-* `chmod a+x start.sh`
-* `./start.sh`
-* access the application on this localhost address `http://127.0.0.1:5000`
+* `python3.6 manage.py runserver`
+* access the application on this localhost address `http://127.0.0.1:8000`
 
 ## Prerequisites
 You need the following to work on the project:
 `-Python version 3.6
--Flask
+-Django
 -Pip
 -virtualenv
 -A text  Editor`
 ## Link to Live Website
+https://jgarage-django.herokuapp.com/
 
 
 ## Technologies Used
-* Python
-* Flask micro-framework
+* HTML/CSS
+* Django
 * Bootstrap
 
 ## License
