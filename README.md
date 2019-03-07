@@ -1,8 +1,8 @@
 # Photo Garage
-#### 
+#### A  photo garage application that allows one display their photos
 #### By **JOSEPH CHIURI**
 ## Description
-A personal blogging website where one can create and share your opinions and other users can read and comment on them as well as getting inspired with a qoute.
+A  photo garage application that allows users to see different categories of photos based on the location
 ## Behavior Driven Development
 * The program should show various photos;
 
@@ -10,29 +10,22 @@ A personal blogging website where one can create and share your opinions and oth
 
      **Output Example**: Category of photos are displayed on landing page
 
-* The program should navigate to login form :
+* The program should navigate to pages with photos for a specified location when a  location is clicked:
 
-     **Input Example**: Click on **Create blog** on the navigation bar
+     **Input Example**: Click on **Nairobi** on the navigation bar
 
-     **Output Example**: Redirected to a page with login form 
+     **Output Example**: Redirected to a page with photos taken in Nairobi
 
-* The program should navigate to sing-up form 
+* The program should navigate to the searched category when a category is entered on the navigation search:
 
-     **Input Example**: Click on **Sign-up** on the navigation bar
+    **Input Example**: Enter fashion in the navigation search
 
-     **Output Example**: Redirected to the page with sign-up form
+    **Output Example**: Redirected to the page with photos on fashion category
+* The program should navigate home page when the app name is clicked on the navbar:
 
-* The program should navigate to new blog form when New Blog is clicked on the navigation bar:
+     **Input Example**: Click on **The Photo Garage** on the navigation bar
 
-    **Input Example**: Click on **New Blog** on the navigation bar
-
-    **Output Example**: Redirected to the page with new blog form
-
-* The program should navigate to readers' side when logout is clicked on the navigation bar:
-
-     **Input Example**: Click on **Logout** on the navigation bar
-
-     **Output Example**: Redirected to the blog readers' side of the website
+     **Output Example**: Redirected to the home page
 
 ## Setup/Installation Requirements
 To start using this project use the following commands:
