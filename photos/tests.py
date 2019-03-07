@@ -25,7 +25,7 @@ class CategoryTestClass(TestCase):
 
 class LocationTestCase(TestCase):
     def setUp(self):
-        self.nyali = Location(name = 'Nairobi')
+        self.nairobi = Location(name = 'Nairobi')
 
     def test_instance(self):
         self.assertTrue(isinstance(self.nairobi, Location))
@@ -34,12 +34,12 @@ class LocationTestCase(TestCase):
         Location.objects.all().delete()
 
     def test_save_location(self):
-        self.nyali.save_location()
+        self.nairobi.save_location()
         locations = Location.objects.all()
         self.assertTrue(len(locations) > 0)
 
     def test_delete_location(self):
-        self.nyali.delete_location('Nairobi')
+        self.nairobi.delete_location('Nairobi')
         locations = Location.objects.all()
         self.assertTrue(len(locations) == 0)
 
